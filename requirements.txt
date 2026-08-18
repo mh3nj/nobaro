@@ -1,0 +1,19 @@
+# ================================================================
+# NOBARO — Python dependencies
+# ================================================================
+# The application itself has ZERO runtime dependencies: it runs on
+# the Python 3.9+ standard library (tkinter included) alone.
+#
+# The packages below are OPTIONAL:
+#   - pygame   : sound effects on Linux/macOS (Windows uses winsound,
+#                which is built in, so this is never needed there)
+#   - pillow   : required only to regenerate icon.ico from the logo
+#                (tools/make_icon.py) — not needed to run the app
+#   - pyinstaller: required only to build the standalone .exe
+#
+# To install everything used in the build pipeline:
+#   pip install -r requirements.txt
+
+pygame>=2.1.0
+pillow>=9.0.0
+pyinstaller>=6.0
