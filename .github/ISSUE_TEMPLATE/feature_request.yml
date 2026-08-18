@@ -1,0 +1,61 @@
+name: ✨ Feature Request
+description: Suggest a new feature or an improvement to an existing one.
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting! 💡 NOBARO is offline, private and simple —
+        the best feature ideas fit that philosophy.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary checks
+      options:
+        - label: I searched existing issues (open and closed) for this request
+          required: true
+        - label: The feature does not exist yet in the current release
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the situation or pain point — not the solution yet.
+      placeholder: |
+        As a user, I want to... because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What should happen? Sketch the behaviour as concretely as you can.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches or workarounds have you tried?
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      description: How far are you willing to go?
+      options:
+        - label: I'd like to implement this myself
+        - label: I can help test / provide feedback
+        - label: Just putting the idea out there
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Mockups, sketches, or links that help explain the idea.

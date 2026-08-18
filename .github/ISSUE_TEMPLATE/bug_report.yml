@@ -1,0 +1,108 @@
+name: 🐛 Bug Report
+description: Something isn't working as expected — report it so we can fix it.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 🙏
+        Please keep it focused — and **never paste personal diary content**.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary checks
+      description: Before reporting, please make sure you've done the following
+      options:
+        - label: I searched existing issues (open and closed) for this bug
+          required: true
+        - label: I reproduced the bug on the latest release / main branch
+          required: false
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: How are you running NOBARO?
+      description: Which build are you using?
+      options:
+        - Prebuilt Windows executable (.exe)
+        - From source (python main.py)
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: e.g. Windows 11, Ubuntu 24.04, macOS 14
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: NOBARO version
+      description: Shown in the About dialog (e.g. v1) — or the release tag
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version (from source only)
+      description: e.g. 3.10, 3.12, 3.13
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: |
+        When I do X, the app does Y instead of Z...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps to trigger the bug, in order.
+      placeholder: |
+        1. Open NOBARO
+        2. Press F8 and open the ASCII art gallery
+        3. Click "Create New" and save an empty piece
+        4. See the error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What actually happened? Include error messages or a traceback if any.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / recordings
+      description: If applicable, add screenshots or a short recording to help explain the problem.
+      render: text
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that might be relevant (fresh vs. existing data folder, locale, etc.).

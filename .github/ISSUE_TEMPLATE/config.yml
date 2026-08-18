@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/mh3nj/nobaro/discussions
+    about: Questions, ideas and general chat about NOBARO.
+  - name: 📱 Mobile companion
+    url: https://github.com/mh3nj/nobaro-mobile
+    about: Bugs and feature requests for the Flutter mobile app belong in nobaro-mobile.
+  - name: 🐦 Original LifeNote
+    url: https://github.com/mh3nj/lifenote
+    about: The PureBasic ancestor that inspired NOBARO.
