@@ -19,7 +19,7 @@
 
 ---
 
-> ## 📖 A note from the author
+> ## A note from the author
 >
 > **NOBARO was inspired by [github.com/mh3nj/lifenote](https://github.com/mh3nj/lifenote)** — it was written from **PureBasic to pure Python** with the same style and everything, and now it's advanced and **live at [github.com/mh3nj/nobaro](https://github.com/mh3nj/nobaro)**.
 >
@@ -31,31 +31,31 @@
 
 ## 📑 Table of Contents
 
-- [📑 Table of Contents](#-table-of-contents)
-- [💙 What is NOBARO?](#-what-is-nobaro)
-- [✨ Features](#-features)
-- [📸 Screenshots](#-screenshots)
-- [🎬 Video Demo](#-video-demo)
-- [🚀 Quick Start](#-quick-start)
+- [Table of Contents](#-table-of-contents)
+- [What is NOBARO?](#-what-is-nobaro)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Video Demo](#-video-demo)
+- [Quick Start](#-quick-start)
   - [Option 1 — Windows executable (recommended)](#option-1--windows-executable-recommended)
   - [Option 2 — From source](#option-2--from-source)
-- [🎮 Keyboard Shortcuts](#-keyboard-shortcuts)
-- [🎨 ASCII Art Gallery](#-ascii-art-gallery)
-- [🔒 Privacy \& Data](#-privacy--data)
-- [🏗️ Architecture](#️-architecture)
-- [🛠️ Building from Source](#️-building-from-source)
+- [Keyboard Shortcuts](#-keyboard-shortcuts)
+- [ASCII Art Gallery](#-ascii-art-gallery)
+- [Privacy \& Data](#-privacy--data)
+- [Architecture](architecture)
+- [Building from Source](building-from-source)
   - [Desktop executable (Windows)](#desktop-executable-windows)
   - [Running tests / checks](#running-tests--checks)
-- [📜 Project History](#-project-history)
-- [📱 Mobile Companion](#-mobile-companion)
-- [🗺️ Roadmap](#️-roadmap)
-- [🤝 Contributing](#-contributing)
-- [🙏 Credits](#-credits)
-- [📄 License](#-license)
+- [Project History](#-project-history)
+- [Mobile Companion](#-mobile-companion)
+- [Roadmap](roadmap)
+- [Contributing](#-contributing)
+- [Credits](#-credits)
+- [License](#-license)
 
 ---
 
-## 💙 What is NOBARO?
+## What is NOBARO?
 
 NOBARO is a note engine for people who want their thoughts to live **on their own machine**. No cloud. No accounts. No ads. No algorithm telling you what to write.
 
@@ -65,41 +65,41 @@ It's a **pure-Python tkinter desktop app** (no runtime dependencies — just the
 
 ---
 
-## ✨ Features
+## Features
 
 **Writing**
-- 📝 **Unlimited notes per day** — a day is no longer capped at one entry; write as many as a day actually needs
-- 🖋️ **Rich text editor** — bold, italic, underline, strikethrough, highlight, headings, fonts, colors, alignment, RTL support
-- 😊 **Mood tracking** — tag every note with a mood (`:D` `:)` `:|` `:(` `;(`) and see a 60-day mood bar
-- 🎨 **ASCII art gallery** — browse built-in art, **search** by name, and **create, edit, delete and inject your own** with one click (F8)
+- **Unlimited notes per day** — a day is no longer capped at one entry; write as many as a day actually needs
+- **Rich text editor** — bold, italic, underline, strikethrough, highlight, headings, fonts, colors, alignment, RTL support
+- **Mood tracking** — tag every note with a mood (`:D` `:)` `:|` `:(` `;(`) and see a 60-day mood bar
+- **ASCII art gallery** — browse built-in art, **search** by name, and **create, edit, delete and inject your own** with one click (F8)
 
 **Motivation**
-- ⚡ **XP & levels** — earn XP for writing, attaching media, and formatting; level up through 11 ranks from BEGINNER to TRANSCENDENT
-- 🏆 **Achievements** — unlockable badges for streaks, media, long notes, burning notes, and more
-- 🔥 **Streaks** — daily writing streaks with XP bonuses at 3, 7, 14, 30, 60, 100+ days
+- **XP & levels** — earn XP for writing, attaching media, and formatting; level up through 11 ranks from BEGINNER to TRANSCENDENT
+- **Achievements** — unlockable badges for streaks, media, long notes, burning notes, and more
+- **Streaks** — daily writing streaks with XP bonuses at 3, 7, 14, 30, 60, 100+ days
 
 **Memory**
-- 🔒 **Sealed letters** — write a letter to your future self and lock it until a chosen date
-- ✉️ **Unsent letters** — write the letters you'll never send
-- 📅 **"This day last year"** — NOBARO quietly reminds you what you were feeling one year ago
-- 🕳️ **Gap detection** — it notices the days you missed and invites you to fill them in
+- **Sealed letters** — write a letter to your future self and lock it until a chosen date
+- **Unsent letters** — write the letters you'll never send
+- **"This day last year"** — NOBARO quietly reminds you what you were feeling one year ago
+- **Gap detection** — it notices the days you missed and invites you to fill them in
 
 **Tools**
-- 🔍 **Search** — full-text grep across every note
-- 📊 **Stats & analytics** — overview, mood graphs, calendars, word frequency, monthly views, annual review export
-- 🧩 **Templates** — save and reuse note templates
-- 🖥️ **Screensaver** — a QBasic-style animated screensaver (F10)
-- 🔐 **Encryption** — XOR-based encrypted export (`.lne`) with password protection
-- 📎 **Media attachments** — attach images, audio, video, or any file to a note
-- 💾 **Backups** — automatic timestamped backups of all your data
-- 🎨 **Themes** — QBasic Classic, Green Phosphor, Amber Phosphor, Midnight, Paper
-- 📖 **Cozy reading mode** — distraction-free full-screen reader (F5)
-- 🌐 **Bilingual UI** — English and فارسی (Farsi) with RTL support
-- ⏱️ **Autosave** — configurable interval-based saving
+- **Search** — full-text grep across every note
+- **Stats & analytics** — overview, mood graphs, calendars, word frequency, monthly views, annual review export
+- **Templates** — save and reuse note templates
+- **Screensaver** — a QBasic-style animated screensaver (F10)
+- **Encryption** — XOR-based encrypted export (`.lne`) with password protection
+- **Media attachments** — attach images, audio, video, or any file to a note
+- **Backups** — automatic timestamped backups of all your data
+- **Themes** — QBasic Classic, Green Phosphor, Amber Phosphor, Midnight, Paper
+- **Cozy reading mode** — distraction-free full-screen reader (F5)
+- **Bilingual UI** — English and فارسی (Farsi) with RTL support
+- **Autosave** — configurable interval-based saving
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <table>
   <tr>
@@ -122,24 +122,22 @@ It's a **pure-Python tkinter desktop app** (no runtime dependencies — just the
 
 ---
 
-## 🎬 Video Demo
+## Video Demo
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
     <img src="docs/screenshots/main%20window.webp" width="640" alt="Watch the NOBARO video demo"/>
   </a>
   <br/>
-  <sub>▶️ Click the thumbnail to watch the demo — link is updated on each release.</sub>
+  <sub>Click the thumbnail to watch the demo — link is updated on each release.</sub>
 </p>
 
-<!--
-  🎥 Release checklist: replace YOUR_VIDEO_ID with the real demo video
-  (YouTube, or a GitHub-hosted .mp4) before tagging a release.
--->
+[demo.webm](https://github.com/user-attachments/assets/da51ab99-a2a2-429f-bb80-ef8dfe7fe9a7)
+
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1 — Windows executable (recommended)
 
@@ -169,7 +167,7 @@ That's it. Your notes live in `data/notes/` as plain JSON — easy to read, easy
 
 ---
 
-## 🎮 Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
@@ -187,7 +185,7 @@ That's it. Your notes live in `data/notes/` as plain JSON — easy to read, easy
 
 ---
 
-## 🎨 ASCII Art Gallery
+## ASCII Art Gallery
 
 Press **F8** (or the `[ART]` toolbar button) to open the gallery.
 
@@ -202,7 +200,7 @@ Your creations are saved as plain `.txt` files in `data/ascii/` — share them, 
 
 ---
 
-## 🔒 Privacy & Data
+## Privacy & Data
 
 NOBARO is **offline-first by design**:
 
@@ -216,7 +214,7 @@ NOBARO is **offline-first by design**:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 nobaro/
@@ -250,7 +248,7 @@ nobaro/
 
 ---
 
-## 🛠️ Building from Source
+## Building from Source
 
 ### Desktop executable (Windows)
 
@@ -270,7 +268,7 @@ python -m compileall main.py core ui features assets   # syntax check
 
 ---
 
-## 📜 Project History
+## Project History
 
 NOBARO started as **LifeNote**, a note-taking app written in **PureBasic** back in 2022. LifeNote was functional but brittle — PureBasic is great for small Windows tools, but it couldn't grow.
 
@@ -288,17 +286,17 @@ If you used LifeNote before, welcome back — use **Tools → Settings → Impor
 
 ---
 
-## 📱 Mobile Companion
+## Mobile Companion
 
 Take your soul with you. The Flutter version of NOBARO — built with the same data model and the same vibe — lives at:
 
-👉 **[github.com/mh3nj/nobaro-mobile](https://github.com/mh3nj/nobaro-mobile)**
+**[github.com/mh3nj/nobaro-mobile](https://github.com/mh3nj/nobaro-mobile)**
 
 It reads the same `data/` directory, so your notes stay in sync wherever you write them. While you're there, note that **nobaro-mobile is also our professional GitHub repo template** — the exact structure, docs and workflows NOBARO follows :))
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Full sync protocol between desktop and mobile (LAN or USB)
 - [ ] Tag-based filtering in the sidebar
@@ -312,7 +310,7 @@ No deadlines. This is a passion project.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome and appreciated — see **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full guide (code style, workflow, and review process).
 
@@ -324,7 +322,7 @@ The short version:
 
 ---
 
-## 🙏 Credits
+## Credits
 
 - **Developed by** — [github.com/mh3nj](https://github.com/mh3nj) · [mh3n.com](https://mh3n.com)
 - **Logo designed by** — [parsegan.com](https://parsegan.com)
@@ -332,7 +330,7 @@ The short version:
 
 ---
 
-## 📄 License
+## License
 
 MIT. See [LICENSE](LICENSE).
 
